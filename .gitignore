@@ -1,0 +1,185 @@
+# ============================================================================
+# Python
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual Environments
+venv/
+venv_*/
+ENV/
+env/
+.venv/
+venv_raft_rag/
+venv_raft_rag_wsl/
+venv_light_27/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# ============================================================================
+# IDEs and Editors
+# ============================================================================
+.vscode/
+.claude/
+.context/
+.cursor
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ============================================================================
+# Project Specific - Data & Logs
+# ============================================================================
+logs/
+*.log
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# HuggingFace Cache
+.huggingface/
+huggingface/
+data/huggingface/
+
+# Model Files (too large for git)
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+data/models/
+data/vectorstore/
+data/bm25_indices/
+data/rag_storage/
+data/uploads/
+data/metadata/
+
+# ============================================================================
+# Testing & Coverage
+# ============================================================================
+.coverage
+.coverage.*
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.pre-commit-config
+coverage.xml
+*.cover
+*.py,cover
+.cache
+.cursor/
+.context/
+.claude/
+.pylintrc
+# Test Scripts (validation/testing scripts, not unit tests)
+scripts/test_*.py
+scripts/validate_*.py
+!scripts/validate_deployment.py
+scripts/update_rag_service.py
+# Keep setup_project.py (not excluded - it's a utility script)
+
+# Diagnostic/Development Scripts (root level)
+test_*.py
+check_*.py
+diagnose_*.py
+
+# Test Suite Directory
+tests/
+
+# Test Output Files
+output/
+*.rar
+*.zip
+!requirements.txt
+
+# Backup files (unused modules archive)
+unused_modules_backup.zip
+
+# Issue Tracking & Temporary Files
+rag_issue.txt
+*.tmp
+tmp/
+temp/
+nul
+
+# Old Documentation Files (replaced by README.md)
+RAG_Kickoff_and_Run.md
+RAG_Slide_Summerized.md
+CLAUDE.md
+claude.md
+
+# Temporary Analysis/Debug Documentation Files
+*_ANALYSIS.md
+*_FIX.md
+*_SUMMARY.md
+*_SOLUTION.md
+
+# ============================================================================
+# Development Tools & Config
+# ============================================================================
+.context
+.claude/
+.pre-commit-config.yaml
+setup_project.py
+
+# ============================================================================
+# OS Specific
+# ============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ============================================================================
+# Alternative Requirements Files (redundant)
+# ============================================================================
+# Note: requirements-torch-*.txt files are kept as they're used in install scripts
+# Exclude other alternative requirements files
+requirements-dev.txt
+requirements-test.txt
+requirements-prod.txt
+
+# ============================================================================
+# Documentation Build
+# ============================================================================
+docs/_build/
+docs/.doctrees/
+site/
+
+# ============================================================================
+# Jupyter Notebooks
+# ============================================================================
+.ipynb_checkpoints
+*.ipynb
+
+# ============================================================================
+# MyPy
+# ============================================================================
+.mypy_cache/
+.dmypy.json
+dmypy.json

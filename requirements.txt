@@ -1,0 +1,75 @@
+
+# bitsandbytes - Latest with Windows + CUDA support
+bitsandbytes
+
+# Datasets - Latest compatible
+datasets
+
+# Sentence Transformers - Latest
+sentence-transformers
+
+# SentencePiece - Required for Mistral/LLaMA tokenizers
+sentencepiece
+
+# Reranking - Fast cross-encoder reranking
+flashrank
+
+# ============================================================================
+# 3. RAG & VECTOR STORE (Latest Compatible)
+# ============================================================================
+
+# ChromaDB - Latest (resolves tokenizers conflict from 0.5.x)
+chromadb
+
+# LangChain - Latest versions
+langchain
+langchain-text-splitters
+langchain-community
+langchain-core
+
+# BM25 for hybrid retrieval (keyword + semantic search)
+rank-bm25
+
+# ============================================================================
+# 4. DOCUMENT PROCESSING (Latest)
+# ============================================================================
+
+# PDF Processing - Use pypdf (NOT PyPDF2 - deprecated!)
+pypdf
+
+# Word Documents
+python-docx
+
+# PowerPoint
+python-pptx
+
+# Images
+pillow
+
+peft
+
+# ============================================================================
+# 5. DATABASE & STORAGE
+# ============================================================================
+
+# SQLAlchemy - Latest
+sqlalchemy
+
+# Async SQLite
+aiosqlite
+
+# Database Migrations
+alembic
+
+# ============================================================================
+# 6. API & WEB
+# ============================================================================
+pydantic-settings
+pydantic-extra-types
+
+# ============================================================================
+# 7. UTILITIES
+# ============================================================================
+
+rich
+typer
